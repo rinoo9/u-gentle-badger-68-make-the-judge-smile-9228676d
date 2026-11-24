@@ -6,12 +6,12 @@ happened today to /output/entry.txt, deterministically: the same text on
 every run, with no randomness, no network and no extra output.
 
 The line's craft:
-- Warmth: a small kindness from a stranger ("for the road, son") that
-  makes the narrator feel loved, not just fed.
-- Surprise turn: the extra fried egg slips in quietly, then the whisper
-  reframes an ordinary rice breakfast as someone caring.
-- One concrete detail: the fried egg on the rice — a single vivid image
-  carries the whole scene, no extra props needed.
+- Warmth: a small child's trust ("it's magic, don't lose it") makes the
+  narrator feel chosen, not just handed something.
+- Surprise turn: a paper flower — worthless, weightless — becomes a secret
+  treasure the narrator carries to work like something precious.
+- One concrete detail: the paper flower pressed into the hand — a single
+  vivid image carries the whole scene, no extra props needed.
 
 Gate: the entry must be 1-200 characters (checked at runtime before
 writing) and a single line, so it stays short, warm and judge-ready.
@@ -20,9 +20,9 @@ writing) and a single line, so it stays short, warm and judge-ready.
 import os
 
 ENTRY = (
-    "This morning the warung lady slipped an extra fried egg onto my rice "
-    "and whispered, 'for the road, son' — and I walked to work feeling "
-    "like somebody's favourite person."
+    "The neighbour's little girl pressed a paper flower into my hand this "
+    "morning and whispered, \"it's magic, don't lose it\" — I carried it "
+    "to work like a secret treasure."
 )
 
 
